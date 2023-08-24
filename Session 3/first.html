@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+<form action="">
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" type="text" name="name"> <br>
+
+      <label for="apellido">Apellido:</label>
+      <input id="apellido" type="text" name="apellido"> <br>
+
+      <label for="comentarios">comentarios:</label>
+      <textarea name="comentario" rows="5" cols="40">Area de texto</textarea> <br>
+
+      <input type="submit" value="Guardar"> <br>
+
+      <label>
+      <!-- Usuario: -->
+      <input id="name" type="text" name="usuario"> <br>
+      <!-- Contrase: -->
+      <input id="psw" type="password" name="contrase"> <br>
+      <!-- number: -->
+      <input min="1" max="13" type="number" name="cantidad"> <br>
+      <!-- email: -->
+      <input id="mail" type="email" name="correo"> <br>
+
+      <!-- archivo: -->
+      <input id="file" type="file" name="myfile"> <br>
+      <!-- Color: -->
+      <input type="color" name="miColor" value="#0000ff"> <br>
+      <!-- fecha: -->
+      <input type="date" name="fecha" value="2019-01-21"> <br>
+      <!-- mes: -->
+      <input type="month" name="mes"> <br>
+      <!-- hora -->
+      <input type="time" name="hora"> <br>
+      <!-- chekbox -->
+      <input type="checkbox" name="chkx1" value="chk1">
+      Checkbox 1
+      <br>
+      <!-- chekbox -->
+      <input type="checkbox" name="chkx2" value="chk2">
+      Checkbox 2
+      <br>
+      <!-- chekbox -->
+      <input type="checkbox" name="chkx3" value="chk3" checked>
+      Checkbox 3
+      <br>
+      Radios: <br>
+      <input type="radio" name="test" value="Radio1">
+      Radio 1 <br>
+      <input type="radio" name="test" value="Radio2">
+      Radio 2 <br>
+      <input type="radio" name="test" value="Radio3">
+      Radio 3 <br>
+
+      Rango: <br>
+      <input type="range" name="points" min="0" max="10"> <br>
+      Boton:
+      <input type="button" value="Picale" onclick="alert('HOLA');"> <br>
+      Selector:
+      <select name="select">
+          <option value="opc1">Opcion 1</option>
+          <option value="opc2" selected>Opcion 2</option>
+          <option value="opc3">Opcion 3</option>
+          <option value="opc4">Opcion 4</option>
+      </select>
+      <br>
+      Imagen <br>
+      <input type="image" src="https://img.freepik.com/foto-gratis/fondo-abstracto-textura_1258-30522.jpg" alt="Submit" width="50px"> <br>
+      </label>
+</form>
+
+
+
+<h2>Iframe</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yJyMbfGxux8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe
+       width="560"
+       height="315"
+       src="http://www.mascotaspfi.com/descargas/perros.pdf"
+></iframe>
+
+<h2>Ejemplo de  objetos</h2>
+<object
+type="application/pdf"
+data="files/test.pdf"
+width="800"
+height="600"
+></object>
+
+
+    
+
+
+</body>
+</html>
