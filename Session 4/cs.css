@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    text-decoration-line: line-through;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#first
+{
+    letter-spacing: 100px;
+}
+
+.par-italica-centrado{
+    text-align: center;
+    color: red;
+    background-color: burlywood;
+    font-style: italic;
+}
+
+.big_text-italica{
+    font-style: italic;
+    font-size: xxx-large;
+}
+
+.par{
+    color: red;
+    background-color: burlywood;
+}
+
+.sombreado-centrado{
+    text-align: center;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+.par-big_text-underlined{
+    background-color: burlywood;
+    color: red;
+    text-decoration-line: underline;
+    font-size: xx-large;
+}
+
+form{
+    color: blue;
+}
+
+input[obligatorio]{
+    border-color: red;
+}
+
+.redondo{
+    border-radius: 8px;
+}
+
+.remarcado{
+    padding: 10px;
+    border-color: blue;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: gray;
+    cursor: pointer;
+}
