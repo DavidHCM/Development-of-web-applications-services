@@ -1,0 +1,54 @@
+tr:nth-child(even)
+{
+    background-color: lightblue ;
+}
+tr:nth-child(odd)
+{
+    background-color: lightcyan;
+
+}
+tr:first-child
+{
+    text-align: center;
+    background-color: antiquewhite;
+    font-style: italic;
+    font-size: x-large;
+}
+tr:hover
+{
+    background-color: coral;
+}
+
+table
+{
+    border-style: dashed;
+
+}
+
+.IT
+{
+    border-radius: 10px;
+    border-color: lightgray;
+}
+
+button
+{
+    border-radius: 10px;
+    border: none;
+    font-style: italic;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+.chk
+{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.mail:invalid
+{
+    background-color: lightcoral;
+}
