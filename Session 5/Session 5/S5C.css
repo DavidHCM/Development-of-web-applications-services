@@ -1,0 +1,112 @@
+/*
+*
+{
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+div
+{
+    background-color: lightgreen;
+}
+
+button{
+    color: initial;
+    background-color: inherit;
+}
+
+textarea{
+    background-color: inherit;
+}
+
+
+*{
+    border: 3px dashed red;
+}
+p{
+    border: 3px dotted blue;
+}
+#dos{
+    display: inline;
+}
+#tres{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+#h:hover{
+    display: none;
+}
+
+
+div{
+    padding: 10px;
+    border: 3px dashed red;
+    margin: 15px;
+}
+
+#div1{
+    background-color: lightblue;
+}
+
+#div1:hover{
+    background-color: deepskyblue;
+    border: 3px dashed yellowgreen;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#div2{
+    background-color: lightcoral;
+    position: absolute;
+    left: 150px;
+    top: 170px;
+    z-index: 1;
+}
+
+#div3{
+    background-color: lightgreen;
+    position: fixed;
+    left: 110px;
+    top: 200px;
+}
+
+
+img{
+    float: left;
+}
+
+#div4{
+    padding: 10px;
+    border: 3px dashed blue;
+    max-resolution: 15px;
+    background-color: burlywood;
+}
+
+ */
+
+.hijo{
+    flex-wrap: wrap;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.padre{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+div{
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
