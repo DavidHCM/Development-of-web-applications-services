@@ -1,0 +1,85 @@
+tr:nth-child(even)
+{
+    background-color: lightblue ;
+}
+tr:nth-child(odd)
+{
+    background-color: lightcyan;
+
+}
+tr:first-child
+{
+    text-align: center;
+    background-color: antiquewhite;
+    font-style: italic;
+    font-size: x-large;
+
+}
+tr:hover
+{
+    background-color: coral;
+}
+form
+{
+    color: cadetblue;
+}
+
+table
+{
+    border-style: dashed;
+
+}
+
+.IT
+{
+    border-radius: 10px;
+    border-color: darkgray;
+    background-color: lightgray;
+}
+
+button
+{
+    border-radius: 10px;
+    border: none;
+    font-style: italic;
+    background-color: antiquewhite;
+    font-size: large;
+
+}
+
+.AB
+{
+    color: brown;
+}
+
+
+.chk{
+    appearance: none;
+}
+
+.chk {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
+
+.chk:checked{
+    background-color: lightblue;
+}
+
+.mail
+{
+
+    border-radius: 10px;
+    border-color: darkgray;
+    background-color: lightgray;
+
+}
+
+.mail:invalid
+{
+    background-color: lightcoral;
+}
